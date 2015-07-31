@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Test Application</name>
         <uuid>_a-0000db64-d317-8000-0315-010000010000_2028</uuid>
-        <description></description>
+        <description/>
         <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -49,6 +48,9 @@
                         <uuid>d6a0ccac-8601-4d2d-91e3-368ada057b74</uuid>
                         <uuid>834bc680-32b0-46e6-9f3b-c42977b9253e</uuid>
                         <uuid>_a-0000db64-d317-8000-0315-010000010000_2020</uuid>
+                    <uuid>SYSTEM_FOLDER_TEMPORARY_DOCS</uuid>
+                        <uuid>_a-0000db6e-fe7e-8000-23cd-010000010000_3629</uuid>
+                        <uuid>a6652c00-3a92-4346-ad10-de3e8db22cad</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -59,12 +61,14 @@
                     <type>processModelFolder</type>
                     <uuids>
                         <uuid>_g-0000db64-d319-8000-0316-010000010000_1</uuid>
+                    <uuid>_g-0000db6e-fe81-8000-23cd-010000010000_69</uuid>
                     </uuids>
                 </item>
                 <item>
                     <type>processModel</type>
                     <uuids>
                         <uuid>0003db65-da22-8000-0316-010000010000</uuid>
+                    <uuid>0002db6f-2c7c-8000-23cd-010000010000</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -217,4 +221,3 @@
         </contentRoleMap>
     </roleMap>
 </applicationHaul>
- 
